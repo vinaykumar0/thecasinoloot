@@ -1,0 +1,153 @@
+.item-details-area {
+    width: 100%;
+    padding: 130px 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #29293d;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+.card {
+    padding: 1.5rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #1b1b29;
+    -webkit-box-shadow: 0 3px 20px 0px var(--primary-l-color);
+    box-shadow: 0 3px 20px 0px var(--primary-l-color);
+    -webkit-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+    transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: opacity, -webkit-transform;
+    transition-property: opacity, -webkit-transform;
+    transition-property: opacity, transform;
+    transition-property: opacity, transform, -webkit-transform;
+}
+.card.no-hover {
+    border: none;
+    box-shadow: none;
+}
+.card.project-card {
+    padding: 2.5rem 2rem;
+    border-radius: 2rem;
+}
+.media {
+    display: -ms-flexbox;
+    display: flex;
+    align-items: flex-start;
+}
+.avatar-max-lg {
+    height: 6rem;
+    width: 6rem;
+}
+.card .card-img-top {
+    border-radius: 6px;
+}
+.card.project-card .card-img-top {
+    border-radius: 8px;
+}
+.media-body {
+    flex: 1;
+}
+.card.project-card .media-body h4 {
+    transition: 0.4s;
+}
+.countdown {
+    text-transform: uppercase;
+    color: #fff;
+}.card .card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 35px 0 0;
+}.card.project-card .single-item {
+    display: inline-block;
+    margin: 2px 0;
+    padding: 0.5rem 0.8rem;
+    background: #090A1A;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+}
+.card.project-card .single-item span:last-child {
+    color: #fff;
+}.btn {
+    display: inline-block;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1;
+    text-align: center;
+    padding: 16px 34px;
+    border: 0 none;
+    border-radius: 100px;
+    outline: 0 none;
+    cursor: pointer;
+    z-index: 1;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}.btn-smaller {
+    font-size: 0.9rem;
+    padding: 12px 18px;
+}.btn.btn-bordered-white {
+    background: transparent none repeat scroll 0 0;
+    border: 2px solid #fff;
+}.btn.btn-bordered-white::after {
+    position: absolute;
+    content: "";
+    height: calc(100% + 4px);
+    width: calc(100% + 4px);
+    background-image: linear-gradient(135deg, #0047FF 10%, #57048A);
+    top: -2px;
+    left: -2px;
+    border-radius: 100px;
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+    z-index: -1;
+}.card.project-card .project-footer .social-share li {
+    margin: 0 0.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.card.project-card .project-footer .social-share li a {
+    font-size: 1.2rem;
+    color: #fff;
+}
+svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
+    overflow: visible;
+    box-sizing: content-box;
+    height: 1em;
+}
+.fa-twitter:before {
+    content: "\f099";
+}   
+.fa-telegram-plane:before, .fa-telegram:before {
+    content: "\f2c6";
+}
+.fa-globe:before {
+    content: "\f0ac";
+}
+.fa-discord:before {
+    content: "\f392";
+}
+.item-details-area .single-item-content:first-child {
+    margin-top: 0;
+}
+.item-details-area .single-item-content.card {
+    overflow: hidden;
+} .item {
+    margin-top: 30px;
+}
